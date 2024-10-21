@@ -1,3 +1,3 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
-"org.sample.Jobf_37_CacheAccess.colFirst","avgt",1,25,5.030767,0.227130,"ns/op"
-"org.sample.Jobf_37_CacheAccess.rowFirst","avgt",1,25,0.290947,0.010730,"ns/op"
+"org.sample.Jobf_37_CacheAccess.colFirst","avgt",1,25,5.653427,0.555162,"ns/op"
+"org.sample.Jobf_37_CacheAccess.rowFirst","avgt",1,25,0.353253,0.027647,"ns/op"
