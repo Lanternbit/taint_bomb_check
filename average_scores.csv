@@ -1,0 +1,16 @@
+File Name,Average Score
+JMHSample_11_Loops_Jobf.csv,0.27901128571428574
+JMHSample_11_Loops_original.csv,0.14694028571428572
+JMHSample_11_Loops_taint_bomb.csv,0.146893
+JMHSample_18_Control_Jobf.csv,28002522.564221002
+JMHSample_18_Control_original.csv,24670704.211790666
+JMHSample_18_Control_taint_bomb.csv,25743546.21518
+JMHSample_21_ConsumeCPU_Jobf.csv,291.63346366666667
+JMHSample_21_ConsumeCPU_original.csv,226.1850595
+JMHSample_21_ConsumeCPU_taint_bomb.csv,247.13253225
+JMHSample_37_CacheAccess_Jobf.csv,2.660857
+JMHSample_37_CacheAccess_original.csv,2.796707
+JMHSample_37_CacheAccess_taint_bomb.csv,2.9898534999999997
+JMHSample_39_MemoryAccess_Jobf.csv,62.075164
+JMHSample_39_Memory_original.csv,62.91451766666667
+JMHSample_39_Memory_taint_bomb.csv,60.318618666666666

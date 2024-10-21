@@ -32,6 +32,7 @@ package org.sample;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -134,6 +135,8 @@ public class JMHSample_37_CacheAccess {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(".*" + JMHSample_37_CacheAccess.class.getSimpleName() + ".*")
+                .resultFormat(ResultFormatType.CSV)
+                .result( "results\\CacheAccess\\JMHSample_37_CacheAccess_original.csv")
                 .build();
 
         new Runner(opt).run();

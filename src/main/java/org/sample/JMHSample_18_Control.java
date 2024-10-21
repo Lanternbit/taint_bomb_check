@@ -35,6 +35,7 @@ import org.openjdk.jmh.annotations.Group;
 import org.openjdk.jmh.annotations.Scope;
 import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.infra.Control;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -97,6 +98,8 @@ public class JMHSample_18_Control {
                 .include(JMHSample_18_Control.class.getSimpleName())
                 .threads(2)
                 .forks(1)
+                .resultFormat(ResultFormatType.CSV)
+                .result( "results\\Control\\JMHSample_18_Control_original.csv")
                 .build();
 
         new Runner(opt).run();

@@ -31,6 +31,7 @@
 package org.sample;
 
 import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -128,6 +129,8 @@ public class JMHSample_39_MemoryAccess {
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 .include(".*" + JMHSample_39_MemoryAccess.class.getSimpleName() + ".*")
+                .resultFormat(ResultFormatType.CSV)
+                .result( "results\\MemoryAccess\\JMHSample_39_Memory_original.csv")
                 .build();
 
         new Runner(opt).run();

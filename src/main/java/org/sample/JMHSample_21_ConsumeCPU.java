@@ -35,6 +35,7 @@ import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 import org.openjdk.jmh.infra.Blackhole;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -140,6 +141,8 @@ public class JMHSample_21_ConsumeCPU {
         Options opt = new OptionsBuilder()
                 .include(JMHSample_21_ConsumeCPU.class.getSimpleName())
                 .forks(1)
+                .resultFormat(ResultFormatType.CSV)
+                .result( "results\\ConsumeCPU\\JMHSample_21_ConsumeCPU_original.csv")
                 .build();
 
         new Runner(opt).run();

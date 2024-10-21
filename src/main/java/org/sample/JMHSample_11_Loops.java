@@ -31,6 +31,7 @@
 package org.sample;
 
 import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
@@ -150,6 +151,8 @@ public class JMHSample_11_Loops {
         Options opt = new OptionsBuilder()
                 .include(JMHSample_11_Loops.class.getSimpleName())
                 .forks(1)
+                .resultFormat(ResultFormatType.CSV)
+                .result("results\\Loops\\JMHSample_11_Loops_original.csv")
                 .build();
 
         new Runner(opt).run();
