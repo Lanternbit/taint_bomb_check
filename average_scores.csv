@@ -4,12 +4,12 @@ JMHSample_11_Loops_original.csv,0.1380937142857143,ns/op
 JMHSample_11_Loops_taint_bomb.csv,0.146893,ns/op
 JMHSample_18_Control_Jobf.csv,22557493.270334,ops/s
 JMHSample_18_Control_original.csv,23667777.09485,ops/s
-JMHSample_18_Control_taint_bomb.csv,25285553.615923334,ops/s
+JMHSample_18_Control_taint_bomb.csv,23465217.380487997,ops/s
 JMHSample_21_ConsumeCPU_Jobf.csv,291.63346366666667,ns/op
 JMHSample_21_ConsumeCPU_original.csv,226.1850595,ns/op
 JMHSample_21_ConsumeCPU_taint_bomb.csv,247.13253225,ns/op
-JMHSample_37_CacheAccess_Jobf.csv,3.0033399999999997,ns/op
-JMHSample_37_CacheAccess_original.csv,3.0289265,ns/op
+JMHSample_37_CacheAccess_Jobf.csv,2.9988345,ns/op
+JMHSample_37_CacheAccess_original.csv,2.909767,ns/op
 JMHSample_37_CacheAccess_taint_bomb.csv,3.0516785,ns/op
 JMHSample_39_MemoryAccess_Jobf.csv,62.075164,ms/op
 JMHSample_39_Memory_original.csv,62.91451766666667,ms/op
