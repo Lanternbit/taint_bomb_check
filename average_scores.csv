@@ -11,6 +11,6 @@ JMHSample_21_ConsumeCPU_taint_bomb.csv,247.13253225,ns/op
 JMHSample_37_CacheAccess_Jobf.csv,2.9988345,ns/op
 JMHSample_37_CacheAccess_original.csv,2.909767,ns/op
 JMHSample_37_CacheAccess_taint_bomb.csv,3.0516785,ns/op
-JMHSample_39_MemoryAccess_Jobf.csv,62.075164,ms/op
+JMHSample_39_MemoryAccess_Jobf.csv,86.84964733333334,ms/op
 JMHSample_39_Memory_original.csv,62.91451766666667,ms/op
-JMHSample_39_Memory_taint_bomb.csv,60.318618666666666,ms/op
+JMHSample_39_Memory_taint_bomb.csv,74.98925733333333,ms/op

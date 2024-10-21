@@ -1,4 +1,4 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
-"org.sample.Jobf_39_MemoryAccess.sumArray","avgt",1,25,4.166987,0.052439,"ms/op"
-"org.sample.Jobf_39_MemoryAccess.sumArrayList","avgt",1,25,24.421350,0.584432,"ms/op"
-"org.sample.Jobf_39_MemoryAccess.sumArrayListShuffled","avgt",1,25,157.637155,2.032842,"ms/op"
+"org.sample.Jobf_39_MemoryAccess.sumArray","avgt",1,25,4.853418,0.172632,"ms/op"
+"org.sample.Jobf_39_MemoryAccess.sumArrayList","avgt",1,25,31.601536,2.305959,"ms/op"
+"org.sample.Jobf_39_MemoryAccess.sumArrayListShuffled","avgt",1,25,224.093988,23.473168,"ms/op"
