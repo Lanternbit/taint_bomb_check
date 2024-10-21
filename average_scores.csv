@@ -2,7 +2,7 @@ File Name,Average Score,Unit
 JMHSample_11_Loops_Jobf.csv,0.27302885714285713,ns/op
 JMHSample_11_Loops_original.csv,0.1380937142857143,ns/op
 JMHSample_11_Loops_taint_bomb.csv,0.146893,ns/op
-JMHSample_18_Control_Jobf.csv,22861602.103896003,ops/s
+JMHSample_18_Control_Jobf.csv,23254633.857990336,ops/s
 JMHSample_18_Control_original.csv,23667777.09485,ops/s
 JMHSample_18_Control_taint_bomb.csv,25285553.615923334,ops/s
 JMHSample_21_ConsumeCPU_Jobf.csv,291.63346366666667,ns/op
